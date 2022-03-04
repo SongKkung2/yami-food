@@ -10,8 +10,116 @@ a, a:link{
 }
 
 /* modal start */
+#modal {
+    position: absolute;
+    width: 400px;  
+    height: 500px;
+    left: 50%;
+    top: 50%;
+    margin: -250px 0 0 -200px;
+    background: gold;
+}
 /* header start */
+.header-top{
+    width: 1200px;
+    height: 80px;
+    padding: 10px 0;
+    margin: 0 auto;
+    /* overflow: hidden; */
+    /* display: flow-root; */
+}
+.header-top::after{
+    content:'';
+    display: block;
+    clear: both;
+
+}
+.header-logo{
+    float: left;
+    margin: 15px 0;
+}
+.header-links{
+    float: right;
+}
+
+.header-links li{
+    float: left;
+    margin: 10px;
+    padding: 20px 0;
+    font-weight: 500;
+    font-size: 13px;
+    color: #888;
+}
+.header-links a:hover{
+    color: #000;
+}
+/* nav start */
+.nav-wrap{
+    border-top: 1px solid #d60c00;  
+}
+#gnb{
+    text-align: center;
+}
+#gnb li{
+    display: inline-block;
+    margin: 25px 30px;
+    font-weight: 700;
+    font-size: 16px;    
+    color: #00000c;
+}
+#gnb a:hover{
+    color: #d60c00;
+}
+/* .header-top + nav{
+    clear: both;
+} */
 /* hero start */
-/* links start */
+.hero{
+    display: flex;
+    justify-content: center;
+    background-image: url("../images/hero.jpg");
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.slogan-text{
+    color: white;
+    position: absolute;
+    left: 70%;
+    top: 18%;
+    
+}
+.slogan-text p:nth-child(1){
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+}
+.slogan-text p:nth-child(2){
+    font-size: 3rem;
+}
+.down-btn{
+    position: absolute;
+    left: 88%;
+    top: 40%;
+    color: #d60c00;
+    background: white;
+    padding: 20px;
+    font-size: 1.025rem;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+/* icon-links start */
+.icon-links{
+    background: #d60c00;
+}
+.icon-links ul{
+    width: 900px;
+    margin: 0 auto;
+    font-size: 0;
+}
+.icon-links ul li {
+    display: inline-block;
+}
 /* section start */
+/* aside start */
 /* footer start */
