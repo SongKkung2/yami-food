@@ -10,25 +10,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+KR&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/stye.css">
+    <script src="https://kit.fontawesome.com/40a7e85c50.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/stye.css">
 </head>
 <body>
-    <h1 class="d-none">스마일푸드 야미 웹 사이트</h1>
-    <!-- modal start -->
-    <div id="modal" class="d-none">
-        <div class="modal-wrap">
-            <h2>배송지연알림</h2>
-            <p>언론에 보도된 것 처럼 택배사의 사정으로 인해 택배가 지연되고있습니다.</p>
-            <p>죄송합니다.</p>
-        </div>
-    </div>
-<!-- header start -->
+    <h1 class="d-none">야미소개 페이지</h1>
+  <!-- header start -->
     <header>
         <h2 class="d-none">야미 헤더 - 브랜드 로고와 전체 메뉴, 기타 메뉴 등</h2>
         <div class="header-top">
             <div class="header-logo">
                 <a href="#">
-                    <img src="images/logo.gif" alt="스마일 푸드 야미">
+                    <img src="../images/logo.gif" alt="스마일 푸드 야미">
                 </a>
             </div>
             <ul class="header-links">
@@ -42,62 +35,49 @@
             <nav>
                 <h3 class="d-none">전역 메뉴</h3>
                 <ul id="gnb">
-                    <li><a href="/about">야미소개</a></li>
+                    <li><a href="#">야미소개</a></li>
                     <li><a href="#">생산공정</a></li>
                     <li><a href="#">제품소개</a></li>
                     <li><a href="#">고객센터</a></li>
                 </ul>
             </nav>
         </div>
-    </header>    
-<!-- hero start -->
-    <div class="hero">
-        <div class="slogan-text">
-            <p>함께하면 행복해지는</p>
-            <p>스마일 푸드 야미</p>
-        </div>
-        <div class="down-btn">
-            <a href="#">기업소개서</a>
+    </header>
+    <!-- 서브페이지 공통 -->
+    <div class="breadcrumb">
+        <div class="breadcrumb-wrap">
+            <ul class="print-btns">
+                <li><a href="#" onclick="window.print()"><i class="fa-solid fa-print"></i></a></li>
+                <li><a href="#" onclick="alert('페이지의 주소가 복사되었습니다 \n 공유곳에 붙여넣기(ctrl+v) 해주세요')"><i class="fa-solid fa-share-nodes"></i></a></li>
+            </ul>
+            <div>
+                <a href="/index.html" onclick="alert('처음으로 돌아가시겠습니까?')"><i class="fa-solid fa-house"></i>처음</a> &gt; 야미소개
+            </div>
         </div>
     </div>
-    <!-- icon start -->
-    <div class="icon-links">
-        <ul>
-            <li><a href="#">
-                <img src="images/visual_icon1.jpg" alt="기업소개">
-            </a></li>
-            <li><a href="#">
-                <img src="images/visual_icon2.jpg" alt="사업안내">
-            </a></li>
-            <li><a href="#">
-                <img src="images/visual_icon3.jpg" alt="제품정보">
-            </a></li>
-            <li><a href="#">
-                <img src="images/visual_icon4.jpg" alt="커뮤니티">
-            </a></li>
-        </ul>
-    </div>
-<!-- section start -->
     <section id="main">
-        <h2 class="d-none">본문-제품 리스트</h2>
+        <h2 class="d-none">본문-제품리스트</h2>
         <article>
             <h3 class="d-none">식품리스트</h3>
-            <h4>product</h4>
-            <ul class="prd-list">
-                <li><a href="#">
-                    <img src="images/prd_img1.jpg" alt="가공식품">
-                </a></li>
-            
-                <li><a href="#">
-                    <img src="images/prd_img2.jpg" alt="신선식품">
-                </a></li>
-            
-                <li><a href="#">
-                    <img src="images/prd_img3.jpg" alt="디저트">
-                </a></li>
-            </ul>
+            <h4>대표소개</h4>
         </article>
+        <article>
+            <h3 class="d-none">식품리스트</h3>
+            <h4>대표소개</h4>
+        </article>
+        <article>
+            <h3 class="d-none">식품리스트</h3>
+            <h4>대표소개</h4>
+        </article>
+        <article>
+            <h3 class="d-none">식품리스트</h3>
+            <h4>대표소개</h4>
+        </article>
+
+
     </section>
+    <!-- 서브페이지 공통 -->
+
     <!-- aside start -->
     <aside>
         <ul class="extra-links">
@@ -108,13 +88,13 @@
     </aside>
     <footer>
         <div class="footer-logo">
-            <img src="images/logo.gif" alt="스마일푸드야미">
+            <img src="../images/logo.gif" alt="스마일푸드야미">
         </div>
         <address>
             <p>&copy;<a href="#" title="사업자정보확인">yami</a>.all right reserved.</p>
         </address>
     </footer>
-    <script src="script/main.js"></script>
+    <script src="../script/main.js"></script>
     <!-- css3 vender prifix를 자동으로 처리하는 라이브러리 -->
     <script src="script/prefixfree.min.js"></script>
 </body>
