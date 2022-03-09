@@ -157,6 +157,9 @@ a, a:link{
 .print-btns{
     display: flex;
 }
+.print-btns li{
+    margin-left: 20px;
+}
 .breadcrumb-wrap {
     max-width: 1200px;
     margin: 0 auto;
